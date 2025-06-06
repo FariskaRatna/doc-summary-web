@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 860px;
+  max-width: 95%;
+  margin: auto;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #555;
+}
+
+hr {
+  margin: 40px auto;
+  border: none;
+  height: 2px;
+  width: 60%;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 16px;
+  margin-bottom: 28px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat input styling */
+.chat-box {
+  margin-top: 40px;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Custom style for file input */
+.upload-container input[type="file"] {
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  border: 2px solid #4e54c8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 300px;
+  text-align: center;
+}
+
+.upload-container input[type="file"]::-webkit-file-upload-button {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.upload-container input[type="file"]::-webkit-file-upload-button:hover {
+  background: linear-gradient(to right, #3e44b0, #7c81e9);
+}
+
+
+input[type="text"] {
+  width: 70%;
+  padding: 14px 18px;
+  border-radius: 30px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #4e54c8;
+}
+
+button {
+  padding: 14px 28px;
+  margin-left: 12px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #3e44b0, #7c81e9);
+}
